@@ -1,0 +1,9 @@
+studnets_grades= [
+    ("Alice", (40, 48, 55)),
+    ("Marioe", (97, 55, 12)),
+    ("Clark", (0, 82, 19)),
+]
+max_grades = [
+    max([first, second, final])
+    for name, (first, second, final) in studnets_grades]
+print(max_grades)
