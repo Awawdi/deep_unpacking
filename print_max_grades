@@ -7,3 +7,7 @@ max_grades = [
     max([first, second, final])
     for name, (first, second, final) in studnets_grades]
 print(max_grades)
+
+
+ten, hundred, thousand = (n**2 for n in (10,100,1000))
+print(f'hundred power 2 is: {hundred}')
